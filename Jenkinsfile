@@ -3,7 +3,7 @@ pipeline{
     stages {
         stage('cloning repo from git hub'){
             steps {
-                git branch: 'main', credentialsId: 'git-pat, url: 'https://github.com/sashankreddy89/chat_app.git'
+                git branch: 'main', credentialsId: 'git-pat', url: 'https://github.com/sashankreddy89/chat_app.git'
             }
         }
         
